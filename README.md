@@ -1,7 +1,7 @@
 # Multimodal Emotion Recognition using Cross-Modal Convolutional Attention and Multi-Acoustic Feature Fusion
 
 
-This repository is a PyTorch reproduction scaffold for the paper **"Multimodal emotion recognition using cross-modal convolutional attention and multi-acoustic feature fusion"**.
+This repository is a PyTorch reproduction scaffold for the paper **"Multimodal emotion recognition using cross-modal convolutional attention and multi-acoustic feature fusion"** in Signal, Image and Video Processing.
 link：https://link.springer.com/article/10.1007/s11760-026-05443-x
 
 pipeline:
