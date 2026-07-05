@@ -1,0 +1,39 @@
+data:
+  root: ""
+  metadata_csv: ""
+  alignment_dir: ""
+  sample_rate: 16000
+  segment_seconds: 3.0
+  min_seconds: 1.0
+  mock_num_samples: 16
+
+model:
+  bert_name: "bert-base-uncased"
+  wav2vec_name: "facebook/wav2vec2-base"
+  use_pretrained_backbones: true
+  freeze_pretrained: true
+  use_maff: true
+  use_cmca: true
+  use_mfcc: true
+  use_spec: true
+  use_wav2vec: true
+  use_text: true
+  hidden_dim: 128
+  cmca_seq_len: 20
+  attention_heads: 2
+  self_attention_layers: 2
+  dropout: 0.5
+
+train:
+  batch_size: 64
+  lr: 1.0e-5
+  epochs: 100
+  early_stopping_patience: 10
+  weight_decay: 0.01
+  num_workers: 0
+  output_dir: "outputs"
+  seed: 42
+
+eval:
+  split: "speaker_independent"
+  fold_seed: 42
