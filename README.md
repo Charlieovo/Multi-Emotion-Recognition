@@ -1,8 +1,10 @@
-# Multi-Emo CMCA + MAFF Reproduction
+# Multimodal Emotion Recognition using Cross-Modal Convolutional Attention and Multi-Acoustic Feature Fusion
+
 
 This repository is a PyTorch reproduction scaffold for the paper **"Multimodal emotion recognition using cross-modal convolutional attention and multi-acoustic feature fusion"**.
+link：https://link.springer.com/article/10.1007/s11760-026-05443-x
 
-The first version focuses on a runnable, inspectable implementation of the paper pipeline:
+pipeline:
 
 - MFCC -> 2-layer BiLSTM -> 128-d utterance vector
 - Spectrogram -> AlexNet-style encoder -> 128-d utterance vector
